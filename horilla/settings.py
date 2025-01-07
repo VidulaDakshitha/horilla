@@ -31,7 +31,7 @@ env = environ.Env(
     ),
     ALLOWED_HOSTS=(list, ["*"]),
     CSRF_TRUSTED_ORIGINS=(list, ["http://localhost:8000",
-                                 "http://31.225.49.204:8000", ]),
+                                 "http://81.225.49.204:8000", ]),
 )
 
 env.read_env(os.path.join(BASE_DIR, ".env"), overwrite=True)
